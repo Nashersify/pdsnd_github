@@ -22,7 +22,7 @@ def get_filters():
         out = input(input_prompt + ": \n")
         out = out.lower()
         while(out not in valid_values):
-            print("Not recognized")
+            print("Not recognized, please try again!")
             out = input(input_prompt + ": \n")
         return out
                   
