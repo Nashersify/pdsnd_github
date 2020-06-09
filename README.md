@@ -4,7 +4,7 @@
 ### Version Control Project 
 
 ### Description
-Describe what your project is about and what it does
+run "python bikeshare.py" to interactively investigate bikeshare usage data.
 
 ### Files used
 Include the files used
