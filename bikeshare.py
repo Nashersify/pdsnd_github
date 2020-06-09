@@ -15,14 +15,14 @@ def get_filters():
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
-    print('Hello! Let\'s explore some US bikeshare data!')
+    print("Hello! Let's explore some US bikeshare data!")
     
     
     def user_prompt(input_prompt, valid_values):
         out = input(input_prompt + ": \n")
         out = out.lower()
         while(out not in valid_values):
-            print("Not recognized")
+            print("Not recognized, please try again!")
             out = input(input_prompt + ": \n")
         return out
                   
